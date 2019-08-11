@@ -41,7 +41,7 @@ func main() {
 		b, err := reader.Read(buf)
 		if err != nil {
 			if err == io.EOF && b == 0 {
-				fmt.Println("All atoms succefully readed.",err)
+				fmt.Println("All atoms successfully readed.",err)
 				break
 			}
 		}
